@@ -27,7 +27,7 @@ https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/README_Modul
 
 ![Junestats](https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/Junestats.png)
 
-
+![Decstats](https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/Decstats.png)
 
 ## Results
 Temperature trends analysis from June and Dec show that surf shop business is sustainable in Oahu and W. Avy can proceed with investment decisions.
@@ -35,9 +35,14 @@ Temperature trends analysis from June and Dec show that surf shop business is su
 Few additional queries can provide him with more details around precipitation and station activity for June and December to further strengthen this analysis
 
 - Total precipitation for June and December
+
 addresults1= session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
 addresults2= session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 
+
 - Precipitation at most active station for June and December
+
 addresults3= session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 6).all()
 addresults4= session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 12).all()
+
+![2additionalqueries](https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/2additionalqueries.png)
