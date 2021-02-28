@@ -14,7 +14,7 @@ Deliverable 2: Summary Statistics for December
 https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/SurfsUp_Challenge.ipynb
 
 Deliverable 3: Written report for the Statistical analysis 
-<insert link>
+https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/README_Module9%20Challenge.md
 
 
 ## Results
@@ -25,7 +25,7 @@ Deliverable 3: Written report for the Statistical analysis
 -50% of June and December temperatures are above 70 degF (75 degF for June and 71 for Dec) which is a reliable indicator that surf shop business has good sustainability prospects in Oahu
 
 
-<change this image link>   ![moviesQuery](/Resources/movies_query.png)
+![Junestats](https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/Junestats.png)
 
 
 
