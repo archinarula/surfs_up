@@ -37,12 +37,14 @@ Few additional queries can provide him with more details around precipitation an
 - Total precipitation for June and December
 
 addresults1= session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
+
 addresults2= session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 
 
 - Precipitation at most active station for June and December
 
 addresults3= session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 6).all()
+
 addresults4= session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 12).all()
 
 ![2additionalqueries](https://github.com/archinarula/surfs_up/blob/main/Challenge%20files/2additionalqueries.png)
